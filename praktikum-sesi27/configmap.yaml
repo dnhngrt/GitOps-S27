@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  index.html: |
+    <html>
+      <h1>Ini tampilan dari NGINX dan nama saya Denhaningrat Alensana</h1>
+    </html>
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: httpd-config
+data:
+  index.html: |
+    <html>
+      <h1>Ini tampilan dari HTTPD dan nama saya Denhaningrat Alensana</h1>
+    </html>
